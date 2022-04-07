@@ -1,0 +1,1 @@
+/*基本数据类型之间的转换	自动转换(隐式转换)		在运算过程中 如果两个值的类型不一致 会自动将小的类型转换为大的类型	强制转换		在运算过程中可以手动强制转换 将大的类型转换为小的类型			实现方式: (dataType)(要转换的数据)	注意:		1、在进行算术运算操作的时候 必须要求数据类型一致 否则无法操作		2、强制转换会发生精度损失 结果可能不准确*/public class ConvertDataType{		public static void main(String[] args){				byte b = 10;		int a = 200;		byte c;		c = (byte)(a + b);		System.out.println(c);	}	}

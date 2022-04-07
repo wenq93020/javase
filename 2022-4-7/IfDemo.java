@@ -1,0 +1,1 @@
+/*分支结构	单分支结构		只做单条件的判断 如果符合 做某些事情	双分支结构	多分支结构*/public class IfDemo{		public static void main(String[] args){							}	}
