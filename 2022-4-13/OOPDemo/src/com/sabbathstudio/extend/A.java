@@ -6,4 +6,9 @@ public class A {
         System.out.println("a test");
     }
 
+//    @Override
+//    public int hashCode(){
+//        super.hashCode();
+//    }
+
 }
